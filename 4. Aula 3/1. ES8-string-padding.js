@@ -1,0 +1,11 @@
+console.log("IGTI".padStart(1));
+console.log("IGTI".padStart(6));
+console.log("IGTI".padEnd(4));
+console.log("IGTI".padEnd(7));
+console.log("IGTI".padStart(6, "D"));
+console.log("IGTI".padStart(6, "DAJ"));
+console.log("IGTI".padEnd(6, "D"));
+console.log("IGTI".padEnd(6, "DAJ"));
+console.log("IGTI".padEnd(7, "D"));
+console.log("IGTI".padEnd(7, "DAJ"));
+console.log("IGTI".padEnd(13, "DAJ"));

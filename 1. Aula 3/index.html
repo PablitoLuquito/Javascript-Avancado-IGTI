@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aula 1.3 - MouseEvent mousedown</title>
+  </head>
+  <body>
+    <p>Exemplo de mousedown e mouseup</p>
+    <p id="a">Click Aqui!</p>
+    <script>
+      let p = document.getElementById("a");
+
+      p.addEventListener(
+        "mousedown",
+        (evt) => (evt.target.innerHTML = "O mouse está pressionado.")
+      );
+
+      p.addEventListener(
+        "mouseup",
+        (evt) => (evt.target.innerHTML = "O mouse não está pressionado.")
+      );
+    </script>
+  </body>
+</html>
